@@ -1,0 +1,82 @@
+﻿.sidebar{ /*Una sidebar que siempre recupera su derecho del dominio del lado izquierdo de la pagina sin importar las pretenciones de los otros div*/
+    height:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    width:200px;
+    color: white;
+    width:10%;
+    display:inline-flexbox;
+    clear:both;
+
+
+     
+    
+}
+*{margin: 0px;padding: 0px;}
+#sidebar a:link{ color:#FFFFFF;}
+#sidebar a:visited { color: #808080 }
+
+/*.container img {
+  width: 100%;
+  
+}*/
+
+
+
+.header{
+ /*  position: fixed;
+   top: 0; */
+   width: 90%;
+   
+ /* background-image: url(Guideline/CG6.jpg);
+   background-size:  cover;
+   background-repeat:no-repeat;
+   background-position:center; 
+   height:300px;
+   right: 0px;
+   margin-right: 0; */ 
+ background-color : red;
+position:relative;
+float:right;
+clear : none;
+height : 300px;
+vertical-align: top;
+
+background-image: url(/Guideline/CG6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+/*.Site Header y .Sitelogo sirven para posicionar mejor la imagen
+    Funciona supuestamenete en todos los navegadores, y al cambiar el margen negativo
+    se puede cambiar la parte de la imagen que se muestra*/
+
+
+
+
+
+.leftContent{
+    background-color:lightblue ;
+    float: right;
+    clear : initial;
+    height: 100%;
+    width: 60%;
+    position:relative;
+   }
+.rightContent{
+    background-color : green;
+float : right;
+clear : none;
+height : 100%;
+width : 30%;
+position: relative;
+
+
+}
+.footer{
+    background-color:gray;
+}
+
