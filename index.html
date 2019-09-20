@@ -54,7 +54,9 @@
     			var Army_DamageMin = 1776;
     			var random = Math.floor(Math.random() * (+ArmyDamageMax - +Army_DamageMin)) + +Army_DamageMin; 
     			document.getElementById("Battle").innerHTML =
-    			"Random Number Generated : " + random;
+    			"Daño Prorovcado a la Astrosphinx : " + random;
+    			Astrosphinx = Astrosphinx - random;
+    			"Vida Actual de la Astrosphinx : " + Astrosphinx;  
 
 
   				</script>
