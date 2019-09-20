@@ -42,7 +42,8 @@
             a<br />
             <a href="">Astrosphinxa</a><br />
               	
-              	<p id="Battle">This is not working</p>
+              	<p id="ArmyDamageP">This is not working</p>
+              	<p id="AstrosphinxHealth"></p>
   				
   				<script >
     			var Astrosphinx = 20000;
@@ -53,10 +54,10 @@
     			var ArmyDamageMax = 2024;
     			var Army_DamageMin = 1776;
     			var random = Math.floor(Math.random() * (+ArmyDamageMax - +Army_DamageMin)) + +Army_DamageMin; 
-    			document.getElementById("Battle").innerHTML =
+    			document.getElementById("ArmyDamageP").innerHTML =
     			"Daño Prorovcado a la Astrosphinx : " + random;
     			var AstrosphinxNew = Astrosphinx - random;
-    			document.getElementById("Battle").innerHTML = "Vida Actual de la Astrosphinx : " + AstrosphinxNew;  
+    			document.getElementById("AstrosphinxHealth").innerHTML = "Vida Actual de la Astrosphinx : " + AstrosphinxNew;  
 
 
   				</script>
