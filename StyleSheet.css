@@ -73,9 +73,43 @@ clear : none;
 height : 100%;
 width : 30%;
 position: relative;
-
-
 }
+
+.postContent{
+background-color : orange;
+float: right;
+clear : initial;
+height : 100%;
+width : 60%;
+position : relative;
+}
+.skillContent{
+    background-color : blue;
+float : right;
+clear : none;
+height : 100%;
+width : 30%;
+position: relative;
+}
+.CVContent{
+background-color : purple;
+float: right;
+clear : initial;
+height : 100%;
+width : 60%;
+position : relative;
+}
+.TwitterContent{
+    background-color : yellow;
+float : right;
+clear : none;
+height : 100%;
+width : 30%;
+position: relative;
+left: 0%;
+top: -400px;
+}
+
 .footer{
     background-color:gray;
 }
