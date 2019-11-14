@@ -84,12 +84,14 @@ width : 60%;
 position : relative;
 }
 .skillContent{
-    background-color : blue;
+    background-color : white;
 float : right;
 clear : none;
 height : 100%;
-width : 30%;
+width : 29%;
 position: relative;
+border-width:10px;  
+border-style:double;
 }
 .CVContent{
 background-color : purple;
@@ -107,7 +109,95 @@ height : 100%;
 width : 30%;
 position: relative;
 left: 0%;
-top: -400px;
+top: -390px;
+}
+#progressbar1 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar1 > div {
+    background-color: #F7901E;
+    width: 90%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar2 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar2 > div {
+    background-color: #F7901E;
+    width: 40%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar3 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar3 > div {
+    background-color: #F7901E;
+    width: 8%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar4 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar4 > div {
+    background-color: #F7901E;
+    width: 0%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar5 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar5 > div {
+    background-color: #F7901E;
+    width: 20%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar6 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar6 > div {
+    background-color: #F7901E;
+    width: 40%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar7 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar7 > div {
+    background-color: #F7901E;
+    width: 38%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
+}
+#progressbar8 {
+    background-color: #20201F;
+    border-radius: 20px; /* (heightOfInnerDiv / 2) + padding */
+    padding: 4px;
+}
+#progressbar8 > div {
+    background-color: #F7901E;
+    width: 38%; /* Adjust with JavaScript */
+    height: 16px;
+    border-radius: 10px;
 }
 
 .footer{
