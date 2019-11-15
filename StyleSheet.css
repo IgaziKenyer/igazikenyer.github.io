@@ -84,7 +84,7 @@ width : 60%;
 position : relative;
 }
 .skillContent{
-    background-color : white;
+ 
 float : right;
 clear : none;
 height : 100%;
@@ -203,4 +203,14 @@ top: -390px;
 .footer{
     background-color:gray;
 }
+.eye{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  display: inline-block;
+}
+
+
+
 
