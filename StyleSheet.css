@@ -105,7 +105,7 @@ width : 60%;
 position : relative;
 }
 .TwitterContent{
-    background-color : yellow;
+background-color : black;
 float : right;
 clear : none;
 height : 100%;
@@ -203,9 +203,16 @@ top: -390px;
     border-radius: 10px;
 }
 
-.footer{
-    background-color:gray;
+footer{
+float : right;
+clear : none;
+height : 100px;
+width : 89%;
+position: relative;
+border-width:10px;  
+border-style:double;
 }
+
 .eye{
   position: relative;
   width: 100px;
@@ -213,7 +220,17 @@ top: -390px;
   margin: 4px;
   display: inline-block;
 }
- 
+
+body{
+background-image: url('/Guideline/ScratchyZealousAfricanaugurbuzzard-size_restricted.gif');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+.twitter-timeline {
+    height: 1090px !important;
+}
+
 
 
 
