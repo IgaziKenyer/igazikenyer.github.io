@@ -210,7 +210,12 @@ top: -390px;
   margin: 4px;
   display: inline-block;
 }
-
+body {
+  background-image: url("\Guideline\ScratchyZealousAfricanaugurbuzzard-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
 
 
 
