@@ -76,7 +76,9 @@ position: relative;
 }
 
 .postContent{
-background-color : orange;
+background-image: url('/Guidelines/ScratchyZealousAfricanaugurbuzzard-size_restricted.gif');
+background-repeat: no-repeat;
+background-color: black;
 float: right;
 clear : initial;
 height : 100%;
@@ -210,12 +212,8 @@ top: -390px;
   margin: 4px;
   display: inline-block;
 }
-footer {
-  background-image: url("\Guideline\ScratchyZealousAfricanaugurbuzzard-size_restricted.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-}
+ 
+
 
 
 
