@@ -15,7 +15,16 @@
     
 }
 
+.lanCont{
+float: relative;
+}
 
+.language{
+  float: absolute;
+  top: 0;
+  right: 0;
+  
+}
 *{margin: 0px;padding: 0px;}
 #sidebar a:link{ color:#FFFFFF;}
 #sidebar a:visited { color: #808080 }
