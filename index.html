@@ -3,10 +3,21 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 <body>
-    <iframe src="\Nothingness.mp3" allow="autoplay" style="display:none; visibility: hidden;" id="iframeAudio" >
-    </iframe> 
-	<audio controls loop autoplay hidden>
-  	<source src="\Nothingness.mp3" type="audio/mpeg">
+    <script>
+    var x = document.getElementById("Aura"); 
+
+    function playAudio() { 
+    x.play(); 
+    } 
+
+    function pauseAudio() { 
+    x.pause(); 
+    } 
+
+</script>
+    <iframe src="\Nothingness.mp3" allow="autoplay" style="display:none; visibility: hidden;" id="iframeAudio"></iframe> 
+	<audio id="Aura" controls loop autoplay hidden>
+  	<source src="\Nothingness.mp3" type="audio/mp3">
   	Your browser does not support the audio element.
 	</audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
@@ -24,7 +35,9 @@
                 <a id="link" href="#">Contact</a><br/>
                 <a href="https://www.w3schools.com">Visit W3Schools</a>
             </div>
-        <div class="header"></div>
+        <div class="header">
+            <a onclick="playAudio()">👁</a>
+        </div>
         <div class="rightContent" style="height: 300px;" >
                  
          </div>
