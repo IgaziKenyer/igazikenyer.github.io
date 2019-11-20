@@ -70,12 +70,15 @@ background-size: cover;
    }
 .Descripcion{
   float: left;
+  height: 100%;
   background-color: rgba(255, 255, 0, 0.5);
   border-width:10px;  
  border-style:double;
+
 }
 .DescripcionWords{
   float : right;
+  height: 100%;
   background-color: rgba(255, 0, 255, 0.5);
   border-width:10px;  
   border-style:double;
