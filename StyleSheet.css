@@ -70,13 +70,10 @@ background-size: cover;
    }
 .Descripcion{
   float: left;
-    clear : initial;
-    position:relative;
 }
 .DescripcionWords{
   float : right;
-clear : none;
-position: relative;
+
 }
 
 .rightContent{
