@@ -59,6 +59,9 @@ background-size: cover;
 
 
 
+.w1{ float: left; position: relative; }
+.w2{float: right;}
+.w3{ float: right; position: relative; }
 
 .leftContent{
     background-color:lightblue ;
