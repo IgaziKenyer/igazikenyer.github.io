@@ -14,6 +14,12 @@
      
     
 }
+.img{
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
 *{margin: 0px;padding: 0px;}
 #sidebar a:link{ color:#FFFFFF;}
 #sidebar a:visited { color: #808080 }
