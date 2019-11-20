@@ -11,8 +11,15 @@
     clear:both;
 
 
-     
+  
     
+}
+.btn {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .lanCont{
@@ -23,7 +30,7 @@ float: relative;
   float: absolute;
   top: 0;
   right: 0;
-  
+
 }
 *{margin: 0px;padding: 0px;}
 #sidebar a:link{ color:#FFFFFF;}
