@@ -69,7 +69,7 @@ background-size: cover;
     position:relative;
    }
 .Descripcion{
-  float: right;
+  float: left;
     clear : initial;
     position:relative;
 }
