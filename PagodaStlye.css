@@ -8,6 +8,6 @@ PagodaStlye
   display: inline-block;
 }
 
-body {
-  background-color: black;
+html, body{
+    background-color: black;
 }
