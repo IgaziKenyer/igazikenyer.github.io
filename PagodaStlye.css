@@ -19,3 +19,16 @@ html, body{
 .Angeles{
 	 color: white;
 }
+.Oracion{
+	float: left;
+	position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    width:200px;
+    color: black;
+    width:10%;
+    display:inline-flexbox;
+    clear:both;
+
+}
