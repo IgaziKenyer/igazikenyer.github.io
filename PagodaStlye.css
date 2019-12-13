@@ -32,3 +32,6 @@ html, body{
     clear:both;
 
 }
+.ImageMain{
+	position: fixed;
+}
