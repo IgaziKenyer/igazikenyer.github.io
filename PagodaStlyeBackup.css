@@ -1,0 +1,28 @@
+PagodaStlye
+
+.btn {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+html, body{
+    background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.2fr 1.8fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Pagoda Pagoda" "Oracion Angeles" "Oracion Runa";
+}
+
+.Pagoda { grid-area: Image; background-color: black;}
+
+.Angeles { grid-area: Angeles; color: white; }
+
+.Oracion { grid-area: Oracion; background-color: black; color: black; }
+
+.Runa { grid-area: Runa; }
