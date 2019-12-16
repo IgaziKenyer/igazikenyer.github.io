@@ -12,6 +12,13 @@ html, body{
     background-color: black;
 }
 
+.Pagoda{
+	
+	
+}
+
+
+
 .grid-container {
   display: grid;
   grid-template-columns: 0.2fr 1.8fr;
@@ -19,7 +26,7 @@ html, body{
   grid-template-areas: "Pagoda Pagoda" "Oracion Angeles" "Oracion Runa";
 }
 
-.Pagoda { grid-area: Image; background-color: black;}
+.Pagoda { grid-area: Image; background-color: black; position: absolute;}
 
 .Angeles { grid-area: Angeles; color: white; }
 
