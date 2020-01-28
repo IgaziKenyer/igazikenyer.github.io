@@ -17,7 +17,8 @@ clear : none;
 height : 300px;
 vertical-align: top;
 
-background-image: url(/Guideline/CG6.jpg);
+background-image: url('https://igazikenyer.github.io/Testing/Guideline/CG6.jpg');
+
 background-repeat: no-repeat;
 background-size: cover;
 
