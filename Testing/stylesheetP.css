@@ -24,3 +24,24 @@ background-size: cover;
 
 
 }
+.Perfil{
+	height: 150px;
+	width:146px;
+}
+.Profile{
+	float: right;
+	position: relative;
+	width: 100%;
+	border-width: 10px;
+    border-style: double;
+    background-image: url('https://igazikenyer.github.io/Testing/Guideline/ScratchyZealousAfricanaugurbuzzard-size_restricted.gif');
+}
+.ColPerfil{
+	width: 55%;
+}
+@media screen and (min-width: 1670px) {
+    /* Styles go here */
+    .Portada {
+        background-position-y: -100px;
+    }
+}
