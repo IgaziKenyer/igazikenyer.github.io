@@ -1,10 +1,22 @@
+html, body{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
 .Portada{
 	background-image: url('https://igazikenyer.github.io/Testing/Guideline/CG6.jpg') no-repeat;
+	background-size: cover;
 	display: block;
-  	position: left;
-  	width: 1500px;
-  	height: 230px;
-  	
-
-
+  	position: absolute;
+  	margin: 0 auto;
+  	width: 100%;
+  	}
+.row{
+	width: 100%;
+}
+.container-fluid{
+	width: 100%;
+}
+.page-content-wrapper{
+	width: 100%;
 }
