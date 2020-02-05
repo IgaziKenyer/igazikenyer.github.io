@@ -29,6 +29,9 @@ background-size: cover;
 	width:146px;
     float: left;
 }
+.PerfilSmall{
+    float: left;
+}
 .Profile{
 
 	float: right;
