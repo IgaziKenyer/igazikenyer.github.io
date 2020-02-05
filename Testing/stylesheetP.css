@@ -58,6 +58,8 @@ background-size: cover;
 }
 .Datos
 {
+    border-width: 10px;
+    border-style: double;
 width: 45%;
 background-image: url('https://igazikenyer.github.io/Guideline/5PerEyes30Sec.gif');
 }
