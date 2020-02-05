@@ -27,8 +27,10 @@ background-size: cover;
 .Perfil{
 	height: 150px;
 	width:146px;
+    float: left;
 }
 .Profile{
+
 	float: right;
 	position: relative;
 	width: 100%;
@@ -39,6 +41,10 @@ background-size: cover;
 .ColPerfil{
 	width: 55%;
 }
+.InnerBox
+{
+     background-color: rgba(255, 255, 255, 0.9);
+}
 @media screen and (min-width: 1670px) {
     /* Styles go here */
     .Portada {
@@ -47,5 +53,6 @@ background-size: cover;
 }
 .Datos
 {
-width: 50%;
+width: 45%;
+background-image: url('https://igazikenyer.github.io/Testing/Guideline/ScratchyZealousAfricanaugurbuzzard-size_restricted.gif');
 }

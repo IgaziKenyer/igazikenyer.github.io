@@ -50,13 +50,20 @@
 <div class="row">
   <div class="ColPerfil">
     <div class="Profile">
-      <img class="Perfil" src="https://igazikenyer.github.io/Testing/Guideline/Igazi2.png">
-      BlaBlbalbablablablablablabalbalba
+      <div class="InnerBox">
+        <img class="Perfil" src="https://igazikenyer.github.io/Testing/Guideline/Igazi2.png">
+        <p style="font-weight: bold;"> Igazi Kenyer</p>
+        <p style="font-weight: bold;"> Principalmente programador de C# y gamedev</p>
+        <p style="font-weight: bold;"> Aspirante a dominar las artes de esta era, las necesarias para desarrollar un juego, sea esto para propositos de solo dev o projectos grupales</p>
+        <p style="font-weight: bold;"> Programacion, narrativa, dibujo, composicion de musica, edicion de videos y gamedev.</p>
+        <p style="font-weight: bold;"> Sin importar la epoca en la que esto sea leido, probablemente tenga mas WIP que proyectos terminados.</p>
+      </div>
     </div>
     
   </div>
   <div class="Datos">
-    <p>Correo, Datos Persona whatever</p>
+    <div class="InnerBox"><p>Correo, Datos Persona whatever</p></div>
+    
     
   </div>
 </div>
@@ -98,6 +105,20 @@
       $("#wrapper").toggleClass("toggled");
     });
   </script>
+    <script type = "text/javascript">
+            var image = document.getElementById("image");
+            var currentPos = 0;
+            var images = ["https://igazikenyer.github.io/Testing/Guideline/ScratchyZealousAfricanaugurbuzzard-size_restricted.gif", "https://igazikenyer.github.io/Testing/Guideline/EyesStatic.png"]
+
+            function volgendefoto() {
+                if (++currentPos >= images.length)
+                    currentPos = 0;
+
+                image.src = images[currentPos];
+            }
+
+            setInterval(volgendefoto, 3000);
+        </script>
 
 </body>
 
