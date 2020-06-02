@@ -1,14 +1,14 @@
-﻿.sidebar{ /*Una sidebar que siempre recupera su derecho del dominio del lado izquierdo de la pagina sin importar las pretenciones de los otros div*/
+﻿ .sidebar{ /*Una sidebar que siempre recupera su derecho del dominio del lado izquierdo de la pagina sin importar las pretenciones de los otros div*/
     height:100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+ /*   position: fixed; */
+ /*   top: 0; */
+ /*   left: 0; */
     background-color: #111;
-    width:200px;
+/*    width:200px; */
     color: white;
-    width:10%;
-    display:inline-flexbox;
-    clear:both;
+    width:100%;
+/*    display:inline-flexbox; */
+  /*  clear:both; */
 
 
   
@@ -32,9 +32,9 @@ float: relative;
   right: 0;
 
 }
-*{margin: 0px;padding: 0px;}
+/*{margin: 0px;padding: 0px;}
 #sidebar a:link{ color:#FFFFFF;}
-#sidebar a:visited { color: #808080 }
+#sidebar a:visited { color: #808080 } */
 
 /*.container img {
   width: 100%;
