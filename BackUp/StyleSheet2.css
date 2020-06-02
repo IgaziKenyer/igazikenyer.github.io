@@ -1,0 +1,59 @@
+﻿
+
+
+.blended_grid{
+display :inline;
+
+
+}
+.sidebar{
+background-color : black;
+float : left;
+clear : none;
+height : 100%;
+width : 200px;
+}
+.header{
+background-color : red;
+float : left;
+clear : none;
+height : 300px;
+width : 80%;
+top:0;
+background-image: url(/Guideline/CG6.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.leftContent{
+background-color : lightblue;
+float : left;
+clear : none;
+height : 500px;
+width : 330px;
+}
+.rightContent {
+    background-color: green;
+    float: left;
+    clear: none;
+    height: 500px;
+    width: 330px;
+}
+
+.bottomBanner{
+background-color : gray;
+float : left;
+clear : none;
+height : 300px;
+width : 660px;
+}
+
+.siteHeader{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.siteHeader .siteLogo{
+    margin: -120px;
+}
+
