@@ -5,7 +5,7 @@ TaleURL = t;
 }
 
 $('#button-1').click(function() {
-    updateTale('https://igazikenyer.github.io/Escritos/Prorae.html');
+    updateTale('https://igazikenyer.github.io/escritos/prorae.html');
     populatePre(TaleURL)
     $(this).parent().parent().remove();
 
