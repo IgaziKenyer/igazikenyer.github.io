@@ -6,14 +6,17 @@ TaleURL = t;
 
 $('#button-1').click(function() {
     updateTale('https://igazikenyer.github.io/text1.html');
+    populatePre(TaleURL)
 });
 
 $('#button-2').click(function() {
     updateTale('https://igazikenyer.github.io/text2.html');
+    populatePre(TaleURL)
 });
 
 $('#button-2').click(function() {
     updateTale('https://igazikenyer.github.io/tex3.html');
+    populatePre(TaleURL)
 });
 
 
