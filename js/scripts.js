@@ -1,10 +1,35 @@
 // Empty JS for your own code to be here
-function populatePre(url) {
+var TaleURL = 0;
+function updateTale(t){
+TaleURL = t;
+}
+
+$('#button-1').click(function() {
+    updateTale('https://igazikenyer.github.io/text1.html');
+});
+
+$('#button-2').click(function() {
+    updateTale('https://igazikenyer.github.io/text2.html');
+});
+
+$('#button-2').click(function() {
+    updateTale('https://igazikenyer.github.io/tex3.html');
+});
+
+
+
+
+
+
+
+
+function populatePre(TaleURL) {
     var xhr = new XMLHttpRequest();
     xhr.onload = function () {
-        document.getElementById('contents').textContent = this.responseText;
+        document.getElementById('contents').innerHTML += this.responseText;
     };
-    xhr.open('GET', url);
+    xhr.open('GET', TaleURL);
     xhr.send();
 }
-populatePre('https://igazikenyer.github.io/text.html');
+populatePre(TaleURL);
+
