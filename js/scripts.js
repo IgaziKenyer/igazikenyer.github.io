@@ -5,21 +5,21 @@ TaleURL = t;
 }
 
 $('#button-1').click(function() {
-    updateTale('https://igazikenyer.github.io/text1.html');
+    updateTale('https://igazikenyer.github.io/Escritos/Prorae.html');
     populatePre(TaleURL)
     $(this).parent().parent().remove();
 
 });
 
 $('#button-2').click(function() {
-    updateTale('https://igazikenyer.github.io/text2.html');
+    updateTale('https://igazikenyer.github.io/Escritos/Kleyri.html');
     populatePre(TaleURL)
     $(this).parent().parent().remove();
 
 });
 
 $('#button-3').click(function() {
-    updateTale('https://igazikenyer.github.io/text3.html');
+    updateTale('https://igazikenyer.github.io/Escritos/Loyri.html');
     populatePre(TaleURL)
     $(this).parent().parent().remove();
 
