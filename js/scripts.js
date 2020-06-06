@@ -7,16 +7,22 @@ TaleURL = t;
 $('#button-1').click(function() {
     updateTale('https://igazikenyer.github.io/text1.html');
     populatePre(TaleURL)
+    $(this).parent().parent().remove();
+
 });
 
 $('#button-2').click(function() {
     updateTale('https://igazikenyer.github.io/text2.html');
     populatePre(TaleURL)
+    $(this).parent().parent().remove();
+
 });
 
-$('#button-2').click(function() {
-    updateTale('https://igazikenyer.github.io/tex3.html');
+$('#button-3').click(function() {
+    updateTale('https://igazikenyer.github.io/text3.html');
     populatePre(TaleURL)
+    $(this).parent().parent().remove();
+
 });
 
 
@@ -35,4 +41,13 @@ function populatePre(TaleURL) {
     xhr.send();
 }
 populatePre(TaleURL);
+
+
+
+
+
+
+    
+
+
 
