@@ -31,7 +31,7 @@ $('#button-4').click(function() {
 
 });
 $('#button-5').click(function() {
-    updateTale('https://igazikenyer.github.io/Escritos/RecuerdosdeLandazuri.html');
+    updateTale('https://igazikenyer.github.io/Escritos/RdeLandazuri.html');
     populatePre(TaleURL)
     $(this).parent().parent().remove();
 
