@@ -1,7 +1,7 @@
 // Empty JS for your own code to be here
 var TaleURL = 0;
 function updateTale(t){
-TaleURL('https://igazikenyer.github.io/Escritos/empty.html');
+TaleURL = 'https://igazikenyer.github.io/Escritos/empty.html';
 }
 function populatePre(TaleURL) {
     var xhr = new XMLHttpRequest();
