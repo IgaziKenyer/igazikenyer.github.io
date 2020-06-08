@@ -3,6 +3,15 @@ var TaleURL = 0;
 function updateTale(t){
 TaleURL = t;
 }
+function populatePre(TaleURL) {
+    var xhr = new XMLHttpRequest();
+    /*xhr.onload = function () { */ 
+        document.getElementById('contents').innerHTML += this.responseText;
+    /*};*/
+    xhr.open('GET', TaleURL);
+    xhr.send();
+}
+populatePre(TaleURL);
 
 $('#button-1').click(function() {
     updateTale('https://igazikenyer.github.io/Escritos/prorae.html');
@@ -38,15 +47,7 @@ $('#button-5').click(function() {
 });
 
 
-function populatePre(TaleURL) {
-    var xhr = new XMLHttpRequest();
-    /*xhr.onload = function () { */ 
-        document.getElementById('contents').innerHTML += this.responseText;
-    /*};*/
-    xhr.open('GET', TaleURL);
-    xhr.send();
-}
-populatePre(TaleURL);
+
 
 
 
