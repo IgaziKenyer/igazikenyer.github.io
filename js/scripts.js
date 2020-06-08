@@ -38,15 +38,9 @@ $('#button-5').click(function() {
 });
 
 
-
-
-
-
-
-
 function populatePre(TaleURL) {
     var xhr = new XMLHttpRequest();
-    xhr.onload = function () { /* Maybe i dont need it on load? */
+    xhr.onload = function () { 
         document.getElementById('contents').innerHTML += this.responseText;
     };
     xhr.open('GET', TaleURL);
