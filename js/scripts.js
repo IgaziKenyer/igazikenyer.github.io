@@ -24,6 +24,18 @@ $('#button-3').click(function() {
     $(this).parent().parent().remove();
 
 });
+$('#button-4').click(function() {
+    updateTale('https://igazikenyer.github.io/Escritos/Janzka.html');
+    populatePre(TaleURL)
+    $(this).parent().parent().remove();
+
+});
+$('#button-5').click(function() {
+    updateTale('https://igazikenyer.github.io/Escritos/RecuerdosdeLandazuri.html');
+    populatePre(TaleURL)
+    $(this).parent().parent().remove();
+
+});
 
 
 
