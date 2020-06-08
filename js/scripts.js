@@ -5,9 +5,9 @@ TaleURL('https://igazikenyer.github.io/Escritos/empty.html');
 }
 function populatePre(TaleURL) {
     var xhr = new XMLHttpRequest();
-    /*xhr.onload = function () { */ 
+    xhr.onload = function () { 
         document.getElementById('contents').innerHTML += this.responseText;
-    /*};*/
+    };
     xhr.open('GET', TaleURL);
     xhr.send();
 }
