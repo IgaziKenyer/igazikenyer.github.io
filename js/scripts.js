@@ -11,7 +11,7 @@ function populatePre(TaleURL) {
     xhr.open('GET', TaleURL);
     xhr.send();
 }
-populatePre(TaleURL);
+
 
 $('#button-1').click(function() {
     updateTale('https://igazikenyer.github.io/Escritos/prorae.html');
