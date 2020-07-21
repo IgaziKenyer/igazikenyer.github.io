@@ -1,25 +1,4 @@
-.Portada{
- /*  position: fixed;
-   top: 0; */
-   width: 90%;
-   
- /* background-image: url(Guideline/CG6.jpg);
-   background-size:  cover;
-   background-repeat:no-repeat;
-   background-position:center; 
-   height:300px;
-   right: 0px;
-   margin-right: 0; */ 
- background-color : red;
-position:relative;
-float:right;
-clear : none;
-height : 300px;
-vertical-align: top;
-
-background-image: url(/Guideline/CG6.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-
-
+@media (max-width: 767px) {
+.modified-accordion .collapse:not(.show){ display: none;}
+.modified-accordion .card-header:after{ display: none;}
 }
