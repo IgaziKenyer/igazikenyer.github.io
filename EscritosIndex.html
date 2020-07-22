@@ -18,30 +18,25 @@
     <div class="container-fluid">
 	<div class="row">
 		<aside class="col-12 col-md-2 p-0 bg-dark flex-shrink-1">
-            <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2">
-                <div class="collapse navbar-collapse ">
-                    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
-                        <li class="nav-item">
-                            <a class="nav-link pl-0 text-nowrap" ><i class="fa fa-bullseye fa-fw"></i> <span class="font-weight-bold">Inicio</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pl-0" href="#"><i class="fa fa-book fa-fw"></i> <span class="d-none d-md-inline">Programacion</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pl-0" href="#"><i class="fa fa-cog fa-fw"></i> <span class="d-none d-md-inline">GameDev</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pl-0" href="https://igazikenyer.github.io/DibujoIndex.html"><i class="fa fa-heart codeply fa-fw"></i> <span class="d-none d-md-inline">Dibujos</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pl-0" href="https://igazikenyer.github.io/EscritosIndex.html"><i class="fa fa-star codeply fa-fw"></i> <span class="d-none d-md-inline">Escritos</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link pl-0" href="https://igazikenyer.github.io/console"><i class="fa fa-star fa-fw"></i> <span class="d-none d-md-inline">Gamedev Journal</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div id="accordion" >
+    <div class="panel list-group  list-group-item-dark " style="background-color:black;">
+      <!-- panel class must be in -->
+      <a href="#web_dev" data-parent="#accordion" data-toggle="collapse" class="list-group-item list-group-item-action bg-dark text-white ">
+        <h4>Disciplinas</h4>
+      </a>
+      	
+      <div class="collapse show" id="web_dev">
+      	
+  		<div class="list-group list-group-flush">
+  		<a href="https://igazikenyer.github.io/" class="show list-group-item list-group-item-action bg-dark text-white">Inicio</a>
+        <a href="https://igazikenyer.github.io/ProgramacionIndex.html" class="show list-group-item list-group-item-action bg-dark text-white">Programacion</a>
+        <a href="https://igazikenyer.github.io/GamedevIndex.html" class=" show list-group-item list-group-item-action bg-dark text-white">Gamedev</a>
+        <a href="https://igazikenyer.github.io/EscritosIndex.html" class=" show list-group-item list-group-item-action bg-dark text-white">Escritos</a>
+        <a href="https://igazikenyer.github.io/DibujoIndex.html" class="show list-group-item list-group-item-action bg-dark text-white">Dibujos</a>
+        <a href="https://igazikenyer.github.io/console" class="show list-group-item list-group-item-action bg-dark text-white">Gamedev Journal</a>
+    	</div>
+    </div>
+  </div>
         </aside>
 		<div class="col-md-10">
 			<div class="row">
