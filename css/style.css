@@ -2,6 +2,15 @@
 #Profile{
 	color: lightblue
 }
+
+@media (min-width: 768px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+}
+
 .list-group-item {
     padding: 5px 10px
 }
