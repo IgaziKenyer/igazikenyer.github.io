@@ -3,7 +3,7 @@
 	color: lightblue
 }
 @media (min-width: 768px) {
-  #my-div .collapse {
+  .collapse.dont-collapse-sm {
     display: block;
   }
 }
