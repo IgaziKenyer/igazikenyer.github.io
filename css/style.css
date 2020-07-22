@@ -14,3 +14,5 @@ color-font:white;
 .btn:active {
   outline-color: black;
 }
+
+#Pdescription {text-align: justify;}
