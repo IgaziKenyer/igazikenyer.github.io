@@ -20,7 +20,7 @@
     <div id="accordion" >
     <div class="panel list-group  list-group-item-dark " style="background-color:black;">
       <!-- panel class must be in -->
-      <a href="#" data-parent="#accordion" data-toggle="collapse" class="list-group-item list-group-item-action bg-dark text-white">
+      <a href="#" data-parent="#accordion" data-toggle="collapse" class="collapse in list-group-item list-group-item-action bg-dark text-white dont-collapse-sm">
         <h4>Inicio15</h4>
       </a>
       	
@@ -197,16 +197,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
-<script >
-	$(document).ready(function(){
-    console.log($(window).width());
-  if ($(window).width() < 767) {
- $('.collapse-div').each(function(){
-     $(this).attr('data-toggle','collapse'); 
- })
-}
-})
-</script>
+
 
   </body>
 </html>
