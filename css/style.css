@@ -15,4 +15,17 @@ color-font:white;
   outline-color: black;
 }
 
+.InnerBox2
+{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%
+    height: 100%;
 
+}
+.InnerBox
+{
+     background-color: rgba(255, 255, 255, 0.9);
+     width: 100%
+     height: 100%;
+}
