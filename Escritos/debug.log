@@ -1,0 +1,6 @@
+[1011/163528.227:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Igazi\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\2d4317ee-4cae-46c5-a873-f507ce117c7c: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/163528.228:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Igazi\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\56df0842-0e93-4add-b3f9-231077a87670: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/163528.228:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Igazi\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\b4228960-f27b-454b-a3f4-2de1e5deaf6d: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/163528.229:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Igazi\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\bd6f70e1-309c-4398-afa7-a7d2cd6cb9a4: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/163528.229:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Igazi\AppData\Local\Microsoft\Edge\User Data\Crashpad\attachments\fd749788-8633-40a6-a9b6-7a7a8d32bf31: El sistema no puede encontrar la ruta especificada. (0x3)
+[1011/163528.229:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
